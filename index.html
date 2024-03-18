@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Nagahara</title>
+    <link rel="stylesheet" href="profile.css">
+    <style>
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+        
+html{
+    height: 100vw;
+}
+
+body{
+margin: 0;
+font-family: 'Noto Serif', serif;
+}
+
+.body-container{
+    margin: 100px 30em;
+    text-align: center;
+}
+
+#pink{
+    width: 100%;
+    height: 20em;
+    background-color: #ffeef5;
+    position: relative;
+    text-align: center; 
+}
+
+#programmer {
+    display: block;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    font-size: 30px;
+    color: #D0BFFF;
+}
+
+#city {
+    display: block; 
+    width: 300px;
+    margin: 20px auto;
+    margin-top: 200px;
+}
+
+h1{
+    margin: 0;
+    color: #D0BFFF;
+    font-size: 50px;
+}
+
+#profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.footer-link {
+    display: inline-block; 
+    margin: 30px 10px;
+}
+
+
+#cat-coding {
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    margin-top: 200px;
+}
+
+#cat-mad {
+    width: 280px; 
+    float: left;
+    clear: left; 
+    margin-top: 200px;
+    margin-right: 50px;
+}
+
+.Skills-title, .pic-text {
+    font-size: 16px;
+    text-align: left;
+}
+
+.container-one{
+    margin-top: 300px;
+}
+
+.container-two{
+    margin-top: 300px;
+}
+
+.bottom-container {
+    width: 100%;
+    height: 170px;
+    background-color: #FFEEF4;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+.touch{
+    margin-top: 400px;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    background-color:  #FFC0D9;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+#hi{
+    font-size: 30px;
+    color: #D0BFFF;
+}
+
+#skills-title{
+    margin-top: 50px;
+    font-size: 25px;
+    color: #D0BFFF;
+}
+
+.Skills-title{
+    color: #D0BFFF;
+}
+
+.touch h2{
+    font-size: 30px;
+    color: #D0BFFF;
+}
+
+a{
+    color: #D0BFFF;
+}
+
+.profile p{
+    font-size: 20px;
+}
+
+hr {
+    border: dotted  #D0BFFF 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+    </style>
+</head>
+<body>
+    <header>
+    <div class="head-container">
+        <div id="pink">
+            <h1>I'm Sara</h1>
+            <p id="programmer">a programmer student.</p>
+        </div>
+    </div>
+    </header>
+<div class="container">
+    <div class="body-container">
+    <div class="profile">
+        <img id="profile-pic" src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/260714391_108949901625996_3529450775494237754_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEXti8RQ65bNqVY4JZm_lgmYeIMF8HHO6Zh4gwXwcc7pp_KKaW1p8vp8iPM0OxQue4adwvvDOWpw7ZNLNR6emX3&_nc_ohc=y3h5afArXrYAX-2bv-N&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfBHqdO9fFKoCOFvkXWqbIueOXmr9bxQ_c271heaIA8olQ&oe=65F9917D" alt="Sara Nagahara">
+        <h2 id="hi">Hello.</h2>
+        <p>I'm improving my habilities <br>and doing some websites just for fun.</p>
+    <div class="hr-container">
+        <hr>
+    </div>
+    </div>
+    <div class="skills">
+        <h2 id="skills-title">My Skills</h2>
+        <img id="cat-coding" src="https://i.pinimg.com/originals/c4/3c/00/c43c005a8ad97b3a860a7464f3face97.gif" alt="cat coding">
+        <div class="container-one">
+        <h2 class="Skills-title">Design & Development</h2>
+        <p class="pic-text">I started coding since I was 22 years, I never thought of being a programer before, but then I really enjoy it coding since the moment I started.</p>
+        </div>
+        <img id="cat-mad" src="https://media.baamboozle.com/uploads/images/949990/1666203725_74698_gif-url.gif" alt="cat">
+        <div class="container-two">
+        <h2 class="Skills-title">Tecnology & Games</h2>
+        <p class="pic-text">I like playing games since I was a kid and I'm always into tecnology stuff, like computer, video games, 3D reality stuf like this. My dream is to have a living room in my house all decorated with gamer stuff, kind a gamer space.</p>
+        </div>
+    </div>
+    <div class="hr-container">
+        <hr>
+    </div>
+    <div class="touch">
+        <h2>Get in Touch</h2>
+        <p>If you like playing games as much as I do and</p>
+        <p>love to spend hours coding or playing games like me? Get in touch</p>
+        <label for="submit"><input id="submit" type="Submit" value="Get in Touch" onclick="clicar()"></label>
+    </div>
+</div>
+  <div class="bottom-container">
+    <a class="footer-link" target="_blank" href="https://codepen.io/SaraNagahara">CodePen</a>
+    <a class="footer-link" target="_blank" href="https://www.instagram.com/saranagahara/">Instagram</a>
+    <a class="footer-link" target="_blank" href="https://github.com/SaraNagahara">Github</a>
+    <p class="copyright">© Sara Nagahara @ Front-End Student.</p>
+   </div>
+   <div id="google_translate_element"></div>
+   <script type="text/javascript">
+    function clicar(){
+        var email = 'naghgames@hotmail.com';
+        var assunto = "Let's play together";
+        var corpo = 'Hello, I would like to get in touch for...';
+
+        var link = 'mailto:' + email + '?subject=' + assunto + '&body=' + corpo;
+        window.location.href = link;
+    }
+
+   </script>
+</body>
+</html>
